@@ -100,4 +100,8 @@ contract Staking {
             revert ClaimReward__TransferFailed();
         }
     }
+
+    function getStaked(address account) public view returns (uint256) {
+        return s_balances[account];
+    }
 }

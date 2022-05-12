@@ -13,6 +13,10 @@ module.exports = {
       url: process.env.INFURA_RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
     },
+    ropsten: {
+      url: process.env.INFURA_RPC_URL,
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
   namedAccounts: {
     deployer: {
